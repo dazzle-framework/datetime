@@ -1,0 +1,32 @@
+{
+    "name": "dazzlesoftware/datetime",
+    "type": "library",
+    "description": "Dazzle DateTime Package",
+    "keywords": ["dazzle", "framework", "datetime"],
+    "homepage": "https://github.com/dazzle-framework/datetime",
+    "license": "LGPL-2.1+",
+    "require": {
+        "php": "^7.3.0",
+        "symfony/translation": "~2.7|~3.0|~4.0"
+    },
+    "require-dev": {
+        "dazzlesoftware/dazzle-coding-standard": "^1.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazzle\\DateTime\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dazzle\\DateTime\\UnitTests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    }
+}
